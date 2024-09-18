@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(25, 25, 25);
+    color: white;
+    font-family: Arial;
+}
+.title {
+    font-size: 30px;
+    font-weight: bold;
+}
+.move-icon {
+    height: 50px;
+}
+.move-button {
+    background-color: transparent;
+    border: 3px solid white;
+    width: 90;
+    height: 90px;
+    border-radius: 70px;
+    margin-right: 10px;
+}
+/* Example CSS for animations */
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
