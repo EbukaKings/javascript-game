@@ -28,12 +28,14 @@
     <p class="js-moves"></p>
     <p class="js-score"></p>
 
-    <button onclick="
+    <button class="reset-score-button" onclick="
     score.wins = 0;
     score.losses = 0;
     score.ties = 0;
     updateScoreElement()
     ">Reset Score</button>
+    <button class="auto-play-button" onclick="autoPlay()
+    ">Auto Play</button>
 <script src="game.js"></script>
 </body>
 </html>
