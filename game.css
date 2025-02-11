@@ -23,4 +23,11 @@ body {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
   }
-  
+  .reset-score-button,
+  .auto-play-button {
+    background-color: white;
+    border-color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+  }
